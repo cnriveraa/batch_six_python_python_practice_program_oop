@@ -9,3 +9,5 @@ characters = input("Characters to be removed: ")
 # check if the characters to be removed is at the beginning of the string
 if string.startswith(characters):
     # remove the characters at the beginning of the string
+    removed_characters = string[len(characters):]
+    print(removed_characters)
