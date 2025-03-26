@@ -4,3 +4,5 @@
 string = input("Enter a string: ")
 
 # convert all characters into lowercase
+lowercase_string = ''.join([chr(ord(char) + 32) if 'A' <= char <= 'Z' else char for char in string])
+print(lowercase_string)
