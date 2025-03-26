@@ -4,3 +4,5 @@
 string = input("Enter a string (add space at the beginning): ")
 
 # remove space at the beginning of the string
+removed_space = ' '.join(string.split())
+print("Begining space removed:", removed_space)
