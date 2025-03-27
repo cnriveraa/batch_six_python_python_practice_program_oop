@@ -14,3 +14,4 @@ def capitalize_each_first_lette(string):
 string = input("Enter a string: ")
 
 # call the function and print the result
+print(capitalize_each_first_lette(string))
