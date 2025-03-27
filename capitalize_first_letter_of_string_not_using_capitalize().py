@@ -10,4 +10,6 @@ def capitalize_first_letter(string):
     return first_letter + remaining_letters
 
 # ask user to input a string
+string = input("Enter a string in any casing: ")
+
 # call the function and print the result
