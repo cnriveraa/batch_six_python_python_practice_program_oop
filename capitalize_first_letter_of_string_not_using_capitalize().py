@@ -13,3 +13,4 @@ def capitalize_first_letter(string):
 string = input("Enter a string in any casing: ")
 
 # call the function and print the result
+print(capitalize_first_letter(string))
