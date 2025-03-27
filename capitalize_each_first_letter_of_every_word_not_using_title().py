@@ -11,4 +11,6 @@ def capitalize_each_first_lette(string):
     return ' '.join(capitalized_words)   # join the words and return the string
 
 # ask user to input a string
+string = input("Enter a string: ")
+
 # call the function and print the result
