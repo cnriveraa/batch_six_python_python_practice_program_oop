@@ -18,3 +18,4 @@ string = input("Enter a string: ")
 length = int(input("Enter a number: "))
 
 # call the function and print the result
+print(add_space_at_start_and_end_of_string(string, length))
