@@ -8,4 +8,6 @@ def add_space_at_end_of_string(string, length):
 string = input("Enter a string: ")
 
 # ask user to input a number
+length = int(input("Enter a number: "))
+
 # call the function and pass the string and number as parameter
