@@ -12,5 +12,7 @@ def add_space_at_start_and_end_of_string(string, length):
     return ' ' * start_space + string + ' ' * end_space
 
 # ask the user to enter a string
+string = input("Enter a string: ")
+
 # ask the user to enter the length of the string
 # call the function and print the result
