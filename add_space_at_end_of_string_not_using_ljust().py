@@ -5,5 +5,7 @@ def add_space_at_end_of_string(string, length):
     return string + ' ' * (length - len(string))
 
 # ask user to input a string
+string = input("Enter a string: ")
+
 # ask user to input a number
 # call the function and pass the string and number as parameter
