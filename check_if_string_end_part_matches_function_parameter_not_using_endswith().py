@@ -16,3 +16,4 @@ string = input("Enter a string: ")
 end_part = input("Enter an end part: ")
 
 # call the function and print the result
+print(check_if_string_end_part_matches_function_parameter(string, end_part))
