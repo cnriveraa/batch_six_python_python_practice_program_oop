@@ -14,3 +14,4 @@ def reverse_casing_of_each_characters(string):
 string = input("Enter a string in any casing: ")
 
 # call the function and print the result
+print(reverse_casing_of_each_characters(string))
