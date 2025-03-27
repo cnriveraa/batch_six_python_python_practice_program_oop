@@ -10,5 +10,7 @@ def check_if_string_end_part_matches_function_parameter(string, end_part):
         return False
 
 # ask the user to input a string
+string = input("Enter a string: ")
+
 # ask the user to input an end part
 # call the function and print the result
