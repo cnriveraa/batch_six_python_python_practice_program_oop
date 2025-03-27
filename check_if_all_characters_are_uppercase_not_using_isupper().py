@@ -4,3 +4,7 @@
 string = input("Enter a string in uppercase: ")
 
 # check if all characters are uppercase
+if string == string.upper():
+    print("All characters are uppercase.")
+else:
+    print("Not all characters are uppercase.")
